@@ -4,11 +4,11 @@ import org.junit.Test;
 
 import static org.junit.Assert.*;
 
-public class LongestCommonPrefixTest {
+public class Longest_Common_Prefix_Test {
 
     @Test
     public void testLongest() {
-        LongestCommonPrefix l = new LongestCommonPrefix();
+        Longest_Common_Prefix l = new Longest_Common_Prefix();
 
         {
             String[] strs = {"flower", "flow", "flight"};

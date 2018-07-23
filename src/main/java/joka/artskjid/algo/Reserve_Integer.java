@@ -1,6 +1,6 @@
 package joka.artskjid.algo;
 
-public class ReserveInteger {
+public class Reserve_Integer {
     public int reverse(int x) {
         boolean negative = x < 0;
         int n = negative ? -x : x;

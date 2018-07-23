@@ -4,11 +4,11 @@ import org.junit.Test;
 
 import static org.junit.Assert.*;
 
-public class ValidParenthesesTest {
+public class Valid_Parentheses_Test {
 
     @Test
     public void testIsValid() {
-        ValidParentheses v = new ValidParentheses();
+        Valid_Parentheses v = new Valid_Parentheses();
 
         assertTrue(v.isValid("()"));
         assertTrue(v.isValid("()[]{}"));

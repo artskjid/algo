@@ -1,6 +1,6 @@
 package joka.artskjid.algo;
 
-public class ValidParentheses {
+public class Valid_Parentheses {
 
     public boolean isValid(String s) {
         char[] stack = new char[s.length()];

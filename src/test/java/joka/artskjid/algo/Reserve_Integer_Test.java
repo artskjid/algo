@@ -4,11 +4,11 @@ import org.junit.Test;
 
 import static org.junit.Assert.*;
 
-public class ReserveIntegerTest {
+public class Reserve_Integer_Test {
 
     @Test
     public void testReverse() {
-        ReserveInteger r = new ReserveInteger();
+        Reserve_Integer r = new Reserve_Integer();
         assertEquals(321, r.reverse(123));
         assertEquals(-321, r.reverse(-123));
         assertEquals(21, r.reverse(120));

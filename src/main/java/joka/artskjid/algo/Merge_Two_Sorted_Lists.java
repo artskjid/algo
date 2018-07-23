@@ -1,6 +1,6 @@
 package joka.artskjid.algo;
 
-public class MergeTwoSortedLists {
+public class Merge_Two_Sorted_Lists {
     class ListNode {
         int val;
         ListNode next;

@@ -4,11 +4,11 @@ import org.junit.Test;
 
 import static org.junit.Assert.*;
 
-public class PalindromeNumberTest {
+public class Palindrome_Number_Test {
 
     @Test
     public void testIsPalindrome() {
-        PalindromeNumber p = new PalindromeNumber();
+        Palindrome_Number p = new Palindrome_Number();
 
         assertTrue(p.isPalindrome(5));
         assertTrue(p.isPalindrome(121));

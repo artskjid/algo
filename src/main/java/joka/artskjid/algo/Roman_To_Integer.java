@@ -3,7 +3,7 @@ package joka.artskjid.algo;
 import java.util.HashMap;
 import java.util.Map;
 
-public class RomanToInteger {
+public class Roman_To_Integer {
     private static Map<Character, Integer> symbols;
 
     static {
@@ -24,7 +24,7 @@ public class RomanToInteger {
 
         char[] cs = s.toCharArray();
 
-        for (int i=cs.length-1; i>=0; i--) {
+        for (int i = cs.length - 1; i >= 0; i--) {
             int curr = symbols.get(cs[i]);
             if (prev != 0 && curr < prev && sign == 1) {
                 sign = -1;

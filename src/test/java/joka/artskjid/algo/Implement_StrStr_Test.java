@@ -4,10 +4,10 @@ import org.junit.Test;
 
 import static org.junit.Assert.*;
 
-public class ImplementStrStrTest {
+public class Implement_StrStr_Test {
     @Test
     public void test() {
-        ImplementStrStr i = new ImplementStrStr();
+        Implement_strStr i = new Implement_strStr();
 
         assertEquals(2, i.strStr("hello", "ll"));
     }

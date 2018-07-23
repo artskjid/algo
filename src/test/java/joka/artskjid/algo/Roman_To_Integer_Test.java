@@ -4,11 +4,11 @@ import org.junit.Test;
 
 import static org.junit.Assert.*;
 
-public class RomanToIntegerTest {
+public class Roman_To_Integer_Test {
 
     @Test
     public void testRomanToInt() {
-        RomanToInteger r = new RomanToInteger();
+        Roman_To_Integer r = new Roman_To_Integer();
 
         assertEquals(3, r.romanToInt("III"));
         assertEquals(4, r.romanToInt("IV"));
